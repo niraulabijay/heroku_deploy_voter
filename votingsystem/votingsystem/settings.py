@@ -26,9 +26,9 @@ MEDIA_DIR = os.path.join(BASE_DIR, "media")
 SECRET_KEY = 'lh)f(3(*ymjj4)%taxjm7h3%mq*5kqa_92mrz1ze+ktwdd^o!x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['votebest.herokuapp.com']
+ALLOWED_HOSTS = ['votebest.herokuapp.com','127.0.0.1:8050']
 
 
 # Application definition
