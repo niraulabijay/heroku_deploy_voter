@@ -1,1 +1,1 @@
-web: gunicorn hellodevdennis.wsgi --log-file -
+web: gunicorn votingsystem.wsgi --log-file -
