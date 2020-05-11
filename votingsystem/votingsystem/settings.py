@@ -28,7 +28,7 @@ SECRET_KEY = 'lh)f(3(*ymjj4)%taxjm7h3%mq*5kqa_92mrz1ze+ktwdd^o!x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['votebest.herokuapp.com','127.0.0.1:8050']
+ALLOWED_HOSTS = ['votebest.herokuapp.com','127.0.0.1:8050','www.votebest.herokuapp.com']
 
 
 # Application definition
@@ -90,9 +90,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'voting',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'USER': 'voteanything_hellonep',
+        'PASSWORD': 'vjA@JB2BxDn^',
+        'HOST': 'http://voteanything.com',
         'PORT': '3306'
     }
 }
